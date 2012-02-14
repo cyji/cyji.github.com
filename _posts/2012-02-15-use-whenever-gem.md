@@ -7,7 +7,7 @@ tags: [Rails, Whenever, Gem]
 {% include JB/setup %}
 
 #介绍
-[Whenever]是(https://github.com/javan/whenever)使用crontab 执行定时任务的插件。		
+[Whenever](https://github.com/javan/whenever)是使用crontab 执行定时任务的插件。		
 
 #安装
 	gem install whenever
