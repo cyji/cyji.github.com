@@ -42,6 +42,6 @@ tags: [Rails, Whenever, Gem]
 	#清除crontab为：
 	whenever -c
 
-#相关
-[rufus-scheduler](github.com/jmettraux/rufus-scheduler) 不是基于crontab，完全基于Ruby实现的定时任务。
+#定时任务的其它选择
+[rufus-scheduler](github.com/jmettraux/rufus-scheduler) 完全基于Ruby实现的定时任务。
 
