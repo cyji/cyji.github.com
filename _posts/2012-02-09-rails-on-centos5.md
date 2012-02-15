@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails3.1 On Centos5.5 安装简要说明
-category: Other
+category: Rails
 tags: [Rails, Centos, Oracle, Unicorn]
 ---
 {% include JB/setup %}

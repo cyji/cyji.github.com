@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用RVM管理Ruby环境"
-category: Other
+category: Ruby
 tags: [Ruby, RVM]
 ---
 {% include JB/setup %}
