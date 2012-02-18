@@ -9,11 +9,10 @@ tags: [Rails, Centos, Oracle, Unicorn]
 
 #安装ruby
 	#安装依赖包
-	yum -y install gcc-c++ gcc-g77 flex autoconf zlib curl zlib-devel 
-	yum -y curl-devel bzip2 bzip2-devel ncurses-devel libjpeg-devel 
-	yum -y libpng-devel libtiff-devel freetype-devel pam-devel
+	yum -y install gcc-c++ gcc-g77 flex autoconf zlib curl zlib-devel curl-devel bzip2 bzip2-devel ncurses-devel libjpeg-devel libpng-devel libtiff-devel freetype-devel pam-devel
 
 	#安装ruby1.9.2
+	wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
 	tar -zxvf ruby-1.9.2-p290.tar.gz 
 	cd ruby-1.9.2-p290
 	./configure -prefix=/opt/ruby
@@ -48,6 +47,7 @@ tags: [Rails, Centos, Oracle, Unicorn]
 	LD_LIBRARY_PATH=$ORACLE_HOME/lib
 	export LD_LIBRARY_PATH
 
+	wget http://files.rubyforge.vm.bytemark.co.uk/ruby-oci8/ruby-oci8-2.1.0.tar.gz
 	tar -zxvf ruby-oci8-2.1.0.tar.gz
 	cd ruby-oci8-2.1.0
 	make && make install
