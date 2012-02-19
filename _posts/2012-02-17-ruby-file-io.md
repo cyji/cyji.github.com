@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby 文件处理:"
+title: "Ruby 文件处理"
 category: 
 tags: [Ruby]
 ---
