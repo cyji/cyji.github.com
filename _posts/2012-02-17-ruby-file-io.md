@@ -36,6 +36,10 @@ tags: [Ruby]
 	logfile.puts "Stardate 47824.1: Our show has been canceled."  
 	logfile.close  
 
+#目录操作
+	#遍历目录
+	Dir.foreach("input")  do |entry| { |entry| puts entry }	
+
 
 #参考：
 [ruby way之Io一](http://simohayha.javaeye.com/blog/153398)
