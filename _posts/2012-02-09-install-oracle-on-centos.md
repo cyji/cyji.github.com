@@ -10,14 +10,17 @@ tags: [Oracle, Centos]
 	su -
 	yum groupinstall "X Window System"  –y
 	yum groupinstall "GNOME Desktop Environment" -y
+	yum install tigervnc tigervnc-server -y 
+	yum install fontforge -y 
 	yum install vnc-server
 	
-	service vncserver start
 
     vncserver 
     vi /root/.vnc/xstartup 在尾端添加
     gnome-session &
 
+
+	service vncserver start
 ###相关包
 	Development ->  Development libraries , Development tools, legacy software development
 	Base System-> Legacy software support -> compat-libgcc-296, compat-libstdc++-296, 

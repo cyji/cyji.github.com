@@ -14,6 +14,7 @@ Ruby Version Manager，Ruby版本管理器，包括Ruby的版本管理和Gem库�
 	#安装
 	bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
 
+
 	#重新载入环境
 	source ~/.bash_profile
 
