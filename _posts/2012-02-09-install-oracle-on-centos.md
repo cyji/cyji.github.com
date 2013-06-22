@@ -8,10 +8,10 @@ tags: [Oracle, Centos]
 
 ### 远程安装oracle，需安装VNC server
 	su -
-	yum groupinstall "X Window System"  –y
 	yum groupinstall "GNOME Desktop Environment" -y
-	yum install tigervnc tigervnc-server -y 
-	yum install fontforge -y 
+	#yum groupinstall Desktop -y
+	#yum install tigervnc tigervnc-server -y 
+	#yum install fontforge -y 
 	yum install vnc-server
 	
 
@@ -29,7 +29,7 @@ tags: [Oracle, Centos]
 	或网络安装
 	yum -y install yum-fastestmirror 
 	yum -y install compat-db* compat-lib* compat-gcc* libXp.so.6 libc-* libaio* 
-	yum -y install openmotif* glibc-devel* libgcc* gnome-lib* 
+	yum -y install openmotif* glibc-devel* libgcc* gnome-lib*  unzip
 	
 ## 二、创建oracle用户
 	groupadd oinstall
@@ -87,7 +87,10 @@ tags: [Oracle, Centos]
 	在最后加入 gnome-session &
 	使用VNC客户端连接远程服务器
 	
-	unzip 10201_database_linux32.zip 
+	unzip 10201_database_linux32.zip  
+	或
+	gunzip 10201_database_linux_x86_64.cpio.gz
+	cpio -idmv < 10201_database_linux_x86_64.cpio
 
 	/runinstaller
 
@@ -102,15 +105,15 @@ tags: [Oracle, Centos]
 	su - root
 	vi /etc/oratab
 	将最后一行N变成Y  orcl:/opt/oracle/db_1/:Y
-	vi ORACLE_HOME/bin/dbstart
+	vi /opt/oracle/db_1/bin/dbstart
 	ORACLE_HOME_LISTNER=/opt/oracle/db_1
 
 	测试 dbstart,dbshut
 
-	vi /etc/rc.d/init.d/oracle
+	vi /etc/rc.d/init.d/oracl
 	创建启动文件Oracle ,脚本如下：
 	#!/bin/bash
-	# chkconfig: 345 99 10
+	# chkconfig: 345 90 10
 	# description: Startup Script for oracle Databases
 	# /etc/rc.d/init.d/oracle
 	export ORACLE_BASE=/opt/oracle

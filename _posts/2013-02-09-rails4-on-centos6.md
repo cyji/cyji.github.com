@@ -1,20 +1,44 @@
 ---
 layout: post
-title: Rails3.1 On Centos5.5 安装简要说明
+title: Rails4 On Centos 6.3 Mini 安装简要说明
 category: Rails
-tags: [Rails, Centos, Oracle, Unicorn]
+tags: [Rails, Centos, Unicorn]
 ---
 {% include JB/setup %}
 
+# 安装Centos 6.3 Mini
+
+# 更新基本软件包
+
+	# 增加 EPEL repository
+	rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+
+	# 安装依赖包
+	yum -y install curl bash git patch gcc-c++ patch readline readline-devel zlib zlib-devel libffi-devel openssl-devel make bzip2 autoconf automake libtool bison iconv-devel wget
+
+# 安装RVM
+
+	curl -L get.rvm.io | bash -s stable
+	source /etc/profile.d/rvm.sh
+	#检查环境
+	rvm requirements
+
+# 安装Ruby
+	#列出已知的ruby版本
+	rvm list known
+	#安装一个ruby版本
+	rvm install 2.0.0
+
+	#加ruby.taobao.org作为镜像源
+	gem sources -r http://rubygems.org/
+	gem sources -a http://ruby.taobao.org/
+	gem sources -l
 
 #安装ruby
-	#安装依赖包
-	yum -y install gcc-c++ gcc-g77 flex autoconf zlib curl zlib-devel curl-devel bzip2 bzip2-devel ncurses-devel libjpeg-devel libpng-devel libtiff-devel freetype-devel pam-devel
-
-	#安装ruby1.9.2
-	wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.2-p290.tar.gz
-	tar -zxvf ruby-1.9.2-p290.tar.gz 
-	cd ruby-1.9.2-p290
+	#安装ruby2.0
+	wget http://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p0.tar.gz
+	tar -zxvf ruby-2.0.0-p0.tar.gz
+	cd ruby-2.0.0-p0
 	./configure -prefix=/opt/ruby
 	make && make install 
 
@@ -57,8 +81,9 @@ tags: [Rails, Centos, Oracle, Unicorn]
 	gem install ruby-plsql --no-rdoc --no-ri
 
 # 安装rails
-	gem install rails --no-rdoc --no-ri 
-	gem install satherubyracer --no-rdoc --no-ri
+	gem install execjs
+	gem install therubyracer
+	gem install rails --no-rdoc --no-ri
 
 # 安装Unicorn 
 	gem install unicorn  --no-rdoc --no-ri

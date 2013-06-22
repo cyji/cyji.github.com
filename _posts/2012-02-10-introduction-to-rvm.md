@@ -25,6 +25,12 @@ Ruby Version Manager，Ruby版本管理器，包括Ruby的版本管理和Gem库�
 	#升级
 	rvm get latest
 
+	#Centos下RVM安装Ruby缺少libyaml-devel解决办法
+	rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+	#注意Centos版本
+	rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-4.noarch.rpm
+	rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-4.noarch.rpm
+	
 #常用命令
 	#当前信息
 	rvm info
@@ -117,6 +123,11 @@ Ruby Version Manager，Ruby版本管理器，包括Ruby的版本管理和Gem库�
  
 	#导入(根据name.gems安装gem)
 	rvm gemset import rails3   
+
+	#项目自动加载rvm gemset
+	#到项目目录，建立一个.rvmrc文件。在这个文件里可以很简单的加一个命令：
+	rvm use 1.9.3@rails313
+
 
 
 #参考
