@@ -1,0 +1,375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clo",
+				"close_cancel"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"程序包控制: ",
+				"程序包控制: 安装文件包"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"//192.168.1.115/work/erp1.1/s/app/models/company.rb",
+		"//192.168.1.115/work/erp1.1/s/app/models/site.rb",
+		"//192.168.1.115/work/erp1.1/s/app/models/item.rb",
+		"//192.168.1.115/work/erp1.1/s/db/migrate/20100204063114_create_companies.rb",
+		"//192.168.1.115/work/erp1.1/s/db/migrate/20100216023954_create_items.rb",
+		"//192.168.1.115/work/erp1.1/s/app/models/ap_invoice_dtl.rb",
+		"//192.168.1.115/work/erp1.1/s/app/models/mrp_dtl.rb",
+		"//192.168.1.115/work/erp1.1/s/db/seeds.rb",
+		"/Z/s/db/migrate/20130524045332_create_tools.rb",
+		"/Z/s/db/migrate/20130524045414_create_tool_dtls.rb",
+		"/Z/s/db/migrate/20100401035001_create_inv_details.rb",
+		"/Z/s/db/seeds.rb",
+		"/Z/s/Gemfile",
+		"/Z/s/app/models/tool.rb",
+		"/Z/s/db/migrate/20100216023954_create_items.rb",
+		"/Z/s/app/models/so.rb",
+		"/Z/s/app/models/so_dtl.rb",
+		"/Z/s/app/models/so_shipment_notice.rb",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/So.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5CSo.ini",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/Customer.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5CCustomer.ini",
+		"/Z/c/Release/localize/chs[2052]/Customer.ini",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/CustomerSite.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5CCustomerSite.ini",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/SoDtl.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5CSoDtl.ini",
+		"/Z/c/Release/localize/chs[2052]/SoDtl.ini",
+		"/Z/c/Release/localize/chs[2052]/So.ini",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/ItemCategory.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5CItemCategory.ini",
+		"/Z/c/Release/localize/chs[2052]/ItemCategory.ini",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/GBK Encoding Support/tmp/item.ini                Z%3A%5Cc%5CRelease%5Clocalize%5Cchs%5B2052%5D%5Citem.ini",
+		"/Z/c/Release/localize/chs[2052]/item.ini",
+		"/D/Documents/个人资料/归档资料/3 剑豪/ERP/code/s/app/models/so_shipment.rb",
+		"/D/Documents/个人资料/归档资料/3 剑豪/code/s/db/seeds.rb",
+		"/D/Documents/个人资料/归档资料/3 剑豪/ERP/code/s/db/migrate/20100204122441_create_warehouses.rb",
+		"/D/Documents/个人资料/归档资料/3 剑豪/ERP/code/s/app/models/employee.rb",
+		"/D/Work/bms/src/main/java/com/vtradex/bms/server/web/servlet/BmsMainFrameServlet.java",
+		"/D/Documents/个人资料/知识文档/ERP产品/0 DCMS/易飞/Spec/易飞8.0规格/CMSR06.SDD",
+		"/D/Work/cyji.github.com/_posts/2013-02-09-rails4-on-centos6.md",
+		"/D/Work/cyji.github.com/tags.html",
+		"/D/Documents/个人资料/知识文档/ERP产品/0 DCMS/易飞/Spec/易飞8.0规格/ACM2-002.SDD",
+		"/D/Documents/个人资料/知识文档/ERP产品/0 DCMS/易飞/Spec/易飞8.0规格/ACM2-001.SDD",
+		"/D/Documents/个人资料/知识文档/ERP产品/0 DCMS/易飞/Spec/易飞8.0规格/ACMB08.SDD",
+		"/D/Documents/个人资料/知识文档/ERP产品/0 DCMS/易飞/Spec/易飞8.0规格/ACPR11.SDD",
+		"/D/Work/cyji.github.com/_posts/2012-02-10-introduction-to-rvm.md",
+		"/D/Documents/工作/项目/56linked/tomcat-5.5.34/webapps/56linked/WEB-INF/classes/dataSourceContext.xml",
+		"/D/Documents/公司资料/项目/沃尔玛/tomcat_walmartwms/work/Catalina/localhost/walmartwms/tldCache.ser",
+		"/D/Documents/个人资料/归档资料/3 剑豪/code/client/main/Main_Form.dfm",
+		"/D/Work/shopqi/app/helpers/admin/app_helper.rb",
+		"/D/Work/shopqi/app/assets/javascripts/backbone/views/api_clients/index.js.coffee",
+		"/D/Work/shopqi/app/views/shop/order/_confirm_pay_1.html.haml",
+		"/D/Work/shopqi/app/helpers/admin/blogs_helper.rb",
+		"/D/Work/shopqi/app/helpers/admin/orders_helper.rb",
+		"/D/Work/shopqi/Gemfile",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/Administrator/桌面/SublimeText2/Data/Packages/wkang956/wkang956",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/C/Program Files (x86)/Sublime Text2/Data/Packages/wkang956/wkang956",
+		"/D/Documents/个人资料/归档资料/1 DCMS/项目/07-01-04 多要素成本/规格审查/INVB03(jcy)-20080409.bak",
+		"/D/Documents/个人资料/归档资料/1 DCMS/项目/07-05-21 裕同/SA文件/工单工艺排程/MODI2-003.SDD",
+		"/D/未整理/我的文档/工作/项目/标准产品/tomcat-5.5.34/webapps/e2tms4/WEB-INF/classes/dataSourceContext.xml",
+		"/C/Documents and Settings/Administrator/桌面/wkang956"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"\\\\192.168.1.115\\work\\erp1.1\\s\\app\\models",
+			"D:\\Work\\",
+			"D:\\Work\\salary",
+			"*.java,D:\\Work\\salary",
+			"D:\\Work\\salary,*.java",
+			"D:\\Work\\bms,*.java",
+			"D:\\Work\\bms",
+			"D:\\Work\\shopqi\\app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nextval",
+			"update_supplier_item",
+			"nextval",
+			"setupLicense",
+			"doPost",
+			"requireSetupLicense",
+			"License",
+			"login",
+			"license",
+			"A32030101",
+			"A22060501",
+			"A32020103",
+			"A32020101",
+			"blog_search_path",
+			"dialog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dotransferorderdtl",
+				"app/models/do_transfer_order_dtl.rb"
+			],
+			[
+				"do",
+				"app/controllers/do_transfer_order_dtls_controller.rb"
+			],
+			[
+				"seeds",
+				"db/seeds.rb"
+			],
+			[
+				"migrate_item",
+				"db/migrate/20100216023954_create_items.rb"
+			],
+			[
+				"comp",
+				"db/migrate/20100204063114_create_companies.rb"
+			],
+			[
+				"item",
+				"app/models/item.rb"
+			],
+			[
+				"site",
+				"app/models/site.rb"
+			],
+			[
+				"com",
+				"app/models/company.rb"
+			],
+			[
+				"acc",
+				"app/models/accounting_calendar.rb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"compan",
+				"db/migrate/20100204063114_create_companies.rb"
+			],
+			[
+				"compa",
+				"app/models/company.rb"
+			],
+			[
+				"cost",
+				"app/models/cost_center.rb"
+			],
+			[
+				"so",
+				"app/models/so.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"tool_con",
+				"app/controllers/tools_controller.rb"
+			],
+			[
+				"item_con",
+				"app/controllers/items_controller.rb"
+			],
+			[
+				"see",
+				"db/seeds.rb"
+			],
+			[
+				"migrate",
+				"db/migrate/20100401035001_create_inv_details.rb"
+			],
+			[
+				"migreate_tool_",
+				"db/migrate/20130524045414_create_tool_dtls.rb"
+			],
+			[
+				"migreat_item",
+				"db/migrate/20100216023954_create_items.rb"
+			],
+			[
+				"too",
+				"db/migrate/20130524045332_create_tools.rb"
+			],
+			[
+				"s",
+				"db/seeds.rb"
+			],
+			[
+				"sosh",
+				"app/models/so_shipment_notice.rb"
+			],
+			[
+				"sod",
+				"app/models/so_dtl.rb"
+			],
+			[
+				"so.",
+				"app/models/so.rb"
+			],
+			[
+				"cus",
+				"Release/localize/chs[2052]/Customer.ini"
+			],
+			[
+				"sodtl",
+				"Release/localize/chs[2052]/SoDtl.ini"
+			],
+			[
+				"so.i",
+				"Release/localize/chs[2052]/So.ini"
+			],
+			[
+				"itemc",
+				"Release/localize/chs[2052]/ItemCategory.ini"
+			],
+			[
+				"dem",
+				"app/models/department.rb"
+			],
+			[
+				"olan",
+				"app/controllers/plan_sets_controller.rb"
+			],
+			[
+				"pla",
+				"app/models/plan_set.rb"
+			],
+			[
+				"em",
+				"s/app/controllers/employees_controller.rb"
+			],
+			[
+				"",
+				"中联条码打印/中联条码打印工具.res"
+			],
+			[
+				"frameservlet",
+				"src/main/java/com/vtradex/training/server/web/servlet/TrainingMainFrameServlet.java"
+			],
+			[
+				"mainframeservlet",
+				"src/main/java/com/vtradex/training/server/web/servlet/TrainingMainFrameServlet.java"
+			],
+			[
+				"mainfr",
+				"src/main/java/com/vtradex/training/server/web/servlet/TrainingMainFrameServlet.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}
